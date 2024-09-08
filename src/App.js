@@ -39,7 +39,7 @@ const App = () => {
           <Avatar img={HiChatAlt2}/>
         </div>
       </button>}
-      {chatbotBtn && <div className="fixed bottom-0 right-0 ">
+      {chatbotBtn && <div className="fixed bottom-0 right-0">
         <button onClick={()=>{setChatbotBtn(!chatbotBtn)}} className=" bg-gray-500 p-0.5 rounded-lg"><HiOutlineX /></button>
         <Chatbot 
             config={Config}
